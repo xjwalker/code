@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/android/PetDex" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/git-tutorial" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/git-tutotial" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python-django-live-coding-challenge" vcs="Git" />
+  </component>
+</project>
