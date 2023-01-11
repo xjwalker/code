@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/android/PetDex" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/css-demystified-course-material" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/git-tutorial" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/git-tutotial" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/my-app" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/python-django-live-coding-challenge" vcs="Git" />
   </component>
 </project>
