@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ece3d6c5-4e89-47d9-a413-fdb3064c1320" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ece3d6c5-4e89-47d9-a413-fdb3064c1320" name="Default Changelist" comment="django site polls app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css-demystified-course-material/module-1/03-pricing-cards-1/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/css-demystified-course-material/module-1/03-pricing-cards-1/code/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css-demystified-course-material/module-1/03-pricing-cards-1/code/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css-demystified-course-material/module-1/03-pricing-cards-1/code/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css-demystified-course-material/module-1/04-pricing-cards-2/01 - start here/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/css-demystified-course-material/module-1/04-pricing-cards-2/01 - start here/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css-demystified-course-material/module-1/04-pricing-cards-2/01 - start here/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css-demystified-course-material/module-1/04-pricing-cards-2/01 - start here/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app" beforeDir="false" afterPath="$PROJECT_DIR$/my-app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +13,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/css-demystified-course-material" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="f9dfd944-60ea-4f6f-9271-aa2a81c56056" />
   <component name="MarkdownSettingsMigration">
@@ -33,20 +26,22 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
@@ -59,6 +54,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Python tests for polls.tests.QuestionModelTests.test_was_published_recently_with_future_question" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/django/" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;polls.tests.QuestionModelTests.test_was_published_recently_with_future_question&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for polls.tests.QuestionModelTests.test_was_published_recently_with_future_question" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -71,18 +86,67 @@
       <workItem from="1669670748347" duration="3923000" />
       <workItem from="1671045062816" duration="116000" />
       <workItem from="1671139494244" duration="575000" />
-      <workItem from="1673107141454" duration="2896000" />
+      <workItem from="1673107141454" duration="7325000" />
+      <workItem from="1673664460920" duration="4864000" />
     </task>
+    <task id="LOCAL-00001" summary="css demistified course excersice">
+      <created>1673468315722</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673468315723</updated>
+    </task>
+    <task id="LOCAL-00002" summary="css demistified course excersice&#10;missing files">
+      <created>1673468373226</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673468373226</updated>
+    </task>
+    <task id="LOCAL-00003" summary="My app&#10;react application bby steps">
+      <created>1673468392235</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673468392235</updated>
+    </task>
+    <task id="LOCAL-00004" summary="django site polls app">
+      <created>1673898920188</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673898920188</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="css demistified course excersice" />
+    <MESSAGE value="css demistified course excersice&#10;missing files" />
+    <MESSAGE value="My app&#10;react application bby steps" />
+    <MESSAGE value="django site polls app" />
+    <option name="LAST_COMMIT_MESSAGE" value="django site polls app" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/code$recursion.coverage" NAME="recursion Coverage Results" MODIFIED="1669761955148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/iterators" />
     <SUITE FILE_PATH="coverage/code$script.coverage" NAME="script Coverage Results" MODIFIED="1662917344841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/encapsulation" />
     <SUITE FILE_PATH="coverage/code$merge_sort.coverage" NAME="merge_sort Coverage Results" MODIFIED="1662919156031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
     <SUITE FILE_PATH="coverage/code$insert_sort.coverage" NAME="insert-sort Coverage Results" MODIFIED="1663791139405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
+    <SUITE FILE_PATH="coverage/code$.coverage" NAME=" Coverage Results" MODIFIED="1673896450187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/django/" />
     <SUITE FILE_PATH="coverage/code$code_challenge.coverage" NAME="code_challenge Coverage Results" MODIFIED="1670360497047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
   </component>
 </project>
