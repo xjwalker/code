@@ -3,6 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="ece3d6c5-4e89-47d9-a413-fdb3064c1320" name="Default Changelist" comment="django site polls app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/algo/ismael.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/.idea/examples.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_examples/script.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_examples/script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git-tutorial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git-tutotial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheretance/script.py" beforeDir="false" afterPath="$PROJECT_DIR$/inheretance/script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheretance/script2.py" beforeDir="false" afterPath="$PROJECT_DIR$/inheretance/script2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iterators/recursion.py" beforeDir="false" afterPath="$PROJECT_DIR$/iterators/recursion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iterators/script.py" beforeDir="false" afterPath="$PROJECT_DIR$/iterators/script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iterators/script2.py" beforeDir="false" afterPath="$PROJECT_DIR$/iterators/script2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +55,7 @@
     ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.script">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -53,6 +66,72 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="ismael" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo/ismael.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="recursion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/iterators" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iterators/recursion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/iterators" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iterators/script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="Python tests for polls.tests.QuestionModelTests.test_was_published_recently_with_future_question" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="code" />
@@ -71,6 +150,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.script" />
+        <item itemvalue="Python.recursion" />
+        <item itemvalue="Python.ismael" />
         <item itemvalue="Python tests.Python tests for polls.tests.QuestionModelTests.test_was_published_recently_with_future_question" />
       </list>
     </recent_temporary>
@@ -87,7 +169,7 @@
       <workItem from="1671045062816" duration="116000" />
       <workItem from="1671139494244" duration="575000" />
       <workItem from="1673107141454" duration="7325000" />
-      <workItem from="1673664460920" duration="4864000" />
+      <workItem from="1673664460920" duration="9906000" />
     </task>
     <task id="LOCAL-00001" summary="css demistified course excersice">
       <created>1673468315722</created>
@@ -117,7 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673898920188</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="django site polls app">
+      <created>1673898995587</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673898995587</updated>
+    </task>
+    <task id="LOCAL-00006" summary="django site polls app">
+      <created>1673899001085</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673899001085</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,12 +237,24 @@
     <MESSAGE value="django site polls app" />
     <option name="LAST_COMMIT_MESSAGE" value="django site polls app" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algo/ismael.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/code$recursion.coverage" NAME="recursion Coverage Results" MODIFIED="1669761955148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/iterators" />
-    <SUITE FILE_PATH="coverage/code$script.coverage" NAME="script Coverage Results" MODIFIED="1662917344841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/encapsulation" />
+    <SUITE FILE_PATH="coverage/code$recursion.coverage" NAME="recursion Coverage Results" MODIFIED="1674055156656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/iterators" />
+    <SUITE FILE_PATH="coverage/code$script.coverage" NAME="script Coverage Results" MODIFIED="1674055180778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/iterators" />
     <SUITE FILE_PATH="coverage/code$merge_sort.coverage" NAME="merge_sort Coverage Results" MODIFIED="1662919156031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
     <SUITE FILE_PATH="coverage/code$insert_sort.coverage" NAME="insert-sort Coverage Results" MODIFIED="1663791139405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
     <SUITE FILE_PATH="coverage/code$.coverage" NAME=" Coverage Results" MODIFIED="1673896450187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/django/" />
+    <SUITE FILE_PATH="coverage/code$ismael.coverage" NAME="ismael Coverage Results" MODIFIED="1673905021005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
     <SUITE FILE_PATH="coverage/code$code_challenge.coverage" NAME="code_challenge Coverage Results" MODIFIED="1670360497047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
   </component>
 </project>
