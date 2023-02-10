@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ece3d6c5-4e89-47d9-a413-fdb3064c1320" name="Default Changelist" comment="second course from django learning">
+    <list default="true" id="ece3d6c5-4e89-47d9-a413-fdb3064c1320" name="Default Changelist" comment="first commit of timeline app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_learn/learn_w/learn_w/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_learn/learn_w/learn_w/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_learn/learn_w/timeline/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_learn/learn_w/timeline/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +16,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="JupyterTrust" id="f9dfd944-60ea-4f6f-9271-aa2a81c56056" />
   <component name="MarkdownSettingsMigration">
@@ -158,7 +161,7 @@
       <workItem from="1673107141454" duration="7325000" />
       <workItem from="1673664460920" duration="12553000" />
       <workItem from="1675989900334" duration="2033000" />
-      <workItem from="1676060098556" duration="914000" />
+      <workItem from="1676060098556" duration="3416000" />
     </task>
     <task id="LOCAL-00001" summary="css demistified course excersice">
       <created>1673468315722</created>
@@ -244,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676061161154</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="first commit of timeline app">
+      <created>1676062543633</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676062543633</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +286,8 @@
     <MESSAGE value="ismael code challenge incomplete" />
     <MESSAGE value="django learn resources from linkedin" />
     <MESSAGE value="second course from django learning" />
-    <option name="LAST_COMMIT_MESSAGE" value="second course from django learning" />
+    <MESSAGE value="first commit of timeline app" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit of timeline app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
