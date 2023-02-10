@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ece3d6c5-4e89-47d9-a413-fdb3064c1320" name="Default Changelist" comment="first commit of timeline app">
+    <list default="true" id="ece3d6c5-4e89-47d9-a413-fdb3064c1320" name="Default Changelist" comment="Migrations for initial models">
+      <change afterPath="$PROJECT_DIR$/algo/pinteres_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_learn/learn_w/timeline/serializers/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_learn/learn_w/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/django_learn/learn_w/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_learn/learn_w/learn_w/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_learn/learn_w/learn_w/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_learn/learn_w/timeline/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_learn/learn_w/timeline/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_learn/learn_w/learn_w/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_learn/learn_w/learn_w/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +48,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Python.script">
+  <component name="RunManager" selected="Python.pinteres_test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -71,6 +74,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo/ismael.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pinteres_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo/pinteres_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,6 +165,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pinteres_test" />
         <item itemvalue="Python.script" />
         <item itemvalue="Python.recursion" />
         <item itemvalue="Python.ismael" />
@@ -161,7 +187,7 @@
       <workItem from="1673107141454" duration="7325000" />
       <workItem from="1673664460920" duration="12553000" />
       <workItem from="1675989900334" duration="2033000" />
-      <workItem from="1676060098556" duration="3416000" />
+      <workItem from="1676060098556" duration="8359000" />
     </task>
     <task id="LOCAL-00001" summary="css demistified course excersice">
       <created>1673468315722</created>
@@ -254,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676062543633</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Migrations for initial models">
+      <created>1676066102687</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676066102687</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +320,8 @@
     <MESSAGE value="django learn resources from linkedin" />
     <MESSAGE value="second course from django learning" />
     <MESSAGE value="first commit of timeline app" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit of timeline app" />
+    <MESSAGE value="Migrations for initial models" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migrations for initial models" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -306,6 +340,7 @@
     <SUITE FILE_PATH="coverage/code$merge_sort.coverage" NAME="merge_sort Coverage Results" MODIFIED="1662919156031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
     <SUITE FILE_PATH="coverage/code$insert_sort.coverage" NAME="insert-sort Coverage Results" MODIFIED="1663791139405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
     <SUITE FILE_PATH="coverage/code$.coverage" NAME=" Coverage Results" MODIFIED="1673896450187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/django/" />
+    <SUITE FILE_PATH="coverage/code$pinteres_test.coverage" NAME="pinteres_test Coverage Results" MODIFIED="1676071818035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
     <SUITE FILE_PATH="coverage/code$ismael.coverage" NAME="ismael Coverage Results" MODIFIED="1673905021005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
     <SUITE FILE_PATH="coverage/code$code_challenge.coverage" NAME="code_challenge Coverage Results" MODIFIED="1670360497047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
   </component>
