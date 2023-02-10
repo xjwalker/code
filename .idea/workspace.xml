@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ece3d6c5-4e89-47d9-a413-fdb3064c1320" name="Default Changelist" comment="ismael code challenge incomplete">
-      <change afterPath="$PROJECT_DIR$/react/modern_react/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/modern_react/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/modern_react/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/modern_react/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/modern_react/src/index.js" afterDir="false" />
+    <list default="true" id="ece3d6c5-4e89-47d9-a413-fdb3064c1320" name="Default Changelist" comment="django learn resources from linkedin">
+      <change afterPath="$PROJECT_DIR$/django_learn/smartnotes/home/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_learn/smartnotes/home/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_learn/smartnotes/smartnotes/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_learn/smartnotes/smartnotes/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_learn/smartnotes/smartnotes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_learn/smartnotes/smartnotes/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,6 +162,8 @@
       <workItem from="1671139494244" duration="575000" />
       <workItem from="1673107141454" duration="7325000" />
       <workItem from="1673664460920" duration="12553000" />
+      <workItem from="1675989900334" duration="2033000" />
+      <workItem from="1676060098556" duration="564000" />
     </task>
     <task id="LOCAL-00001" summary="css demistified course excersice">
       <created>1673468315722</created>
@@ -226,7 +228,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674055233187</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="django learn resources from linkedin">
+      <created>1675990066579</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675990066579</updated>
+    </task>
+    <task id="LOCAL-00011" summary="django learn resources from linkedin">
+      <created>1675990078389</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675990078389</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +253,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -250,7 +272,8 @@
     <MESSAGE value="django site polls app" />
     <MESSAGE value="lint" />
     <MESSAGE value="ismael code challenge incomplete" />
-    <option name="LAST_COMMIT_MESSAGE" value="ismael code challenge incomplete" />
+    <MESSAGE value="django learn resources from linkedin" />
+    <option name="LAST_COMMIT_MESSAGE" value="django learn resources from linkedin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
