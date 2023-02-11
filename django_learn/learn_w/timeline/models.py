@@ -37,7 +37,7 @@ class Plot(models.Model):
 class Timeline(models.Model):
     name = models.CharField(max_length=120)
     description = models.TextField()
-    stories = models.ManyToManyField(Story)
+    stories = models.ManyToManyField(Story, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
