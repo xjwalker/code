@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ece3d6c5-4e89-47d9-a413-fdb3064c1320" name="Default Changelist" comment="Added django rest framework, still going through the tutorial page">
-      <change afterPath="$PROJECT_DIR$/django_learn/learn_w/timeline/urls.py" afterDir="false" />
+    <list default="true" id="ece3d6c5-4e89-47d9-a413-fdb3064c1320" name="Default Changelist" comment="serializers tutorial complete&#10;going to class based views">
+      <change afterPath="$PROJECT_DIR$/algo/pinterest_warmup/a_very_big_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/pinterest_warmup/balanced_brackets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/pinterest_warmup/binary_tree_insertion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/pinterest_warmup/colorful_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/pinterest_warmup/cycle_detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/pinterest_warmup/designer_pdf_viewer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/pinterest_warmup/ice_cream_parlor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/pinterest_warmup/insert_node_specific_possition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/pinterest_warmup/insert_sort_p2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/pinterest_warmup/left_rotation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/pinterest_warmup/queue_using_two_stacks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_02_23_17_05_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_02_23_18_23_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_02_23_18_24_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_02_23_18_33_[Default_Changelist]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_learn/learn_w/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/django_learn/learn_w/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_learn/learn_w/learn_w/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_learn/learn_w/learn_w/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_learn/learn_w/timeline/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_learn/learn_w/timeline/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_learn/learn_w/timeline/serializers/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_learn/learn_w/timeline/serializers/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_learn/learn_w/timeline/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_learn/learn_w/timeline/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/binary-search.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo/binary-search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/colorful_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo/colorful_numbers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +60,12 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Python.pinteres_test">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algo/pinterest_warmup" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.binary_tree_insertion">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -61,7 +77,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ismael" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="binary_tree_insertion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algo/pinterest_warmup" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo/pinterest_warmup/binary_tree_insertion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="colorful_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algo/pinterest_warmup" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo/pinterest_warmup/colorful_number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="colorful_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,7 +134,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo/ismael.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo/colorful_numbers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pinteres_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="insert-sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,7 +156,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo/pinteres_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo/insert-sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +165,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="recursion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="insert_sort_p2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,64 +173,27 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/iterators" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algo/pinterest_warmup" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iterators/recursion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo/pinterest_warmup/insert_sort_p2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/iterators" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iterators/script.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for polls.tests.QuestionModelTests.test_was_published_recently_with_future_question" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/django" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;polls.tests.QuestionModelTests.test_was_published_recently_with_future_question&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pinteres_test" />
-        <item itemvalue="Python.script" />
-        <item itemvalue="Python.recursion" />
-        <item itemvalue="Python.ismael" />
-        <item itemvalue="Python tests.Python tests for polls.tests.QuestionModelTests.test_was_published_recently_with_future_question" />
+        <item itemvalue="Python.binary_tree_insertion" />
+        <item itemvalue="Python.insert-sort" />
+        <item itemvalue="Python.insert_sort_p2" />
+        <item itemvalue="Python.colorful_number" />
+        <item itemvalue="Python.colorful_numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +211,9 @@
       <workItem from="1673107141454" duration="7325000" />
       <workItem from="1673664460920" duration="12553000" />
       <workItem from="1675989900334" duration="2033000" />
-      <workItem from="1676060098556" duration="10657000" />
+      <workItem from="1676060098556" duration="10812000" />
+      <workItem from="1676323813486" duration="196000" />
+      <workItem from="1676928736932" duration="13768000" />
     </task>
     <task id="LOCAL-00001" summary="css demistified course excersice">
       <created>1673468315722</created>
@@ -302,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676072823642</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="serializers tutorial complete&#10;going to class based views">
+      <created>1676075413230</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1676075413230</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +370,8 @@
     <MESSAGE value="Migrations for initial models" />
     <MESSAGE value="Pinterest code challenge, &#10;the heap solution is not mine, found it on leet code&#10;I should research heaps" />
     <MESSAGE value="Added django rest framework, still going through the tutorial page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added django rest framework, still going through the tutorial page" />
+    <MESSAGE value="serializers tutorial complete&#10;going to class based views" />
+    <option name="LAST_COMMIT_MESSAGE" value="serializers tutorial complete&#10;going to class based views" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -353,12 +386,23 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/code$recursion.coverage" NAME="recursion Coverage Results" MODIFIED="1674055156656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/iterators" />
+    <SUITE FILE_PATH="coverage/code$colorful_number.coverage" NAME="colorful_number Coverage Results" MODIFIED="1676939904092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo/pinterest_warmup" />
+    <SUITE FILE_PATH="coverage/code$insert_sort_p2.coverage" NAME="insert_sort_p2 Coverage Results" MODIFIED="1676942792253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo/pinterest_warmup" />
+    <SUITE FILE_PATH="coverage/code$binary_tree_insertion.coverage" NAME="binary_tree_insertion Coverage Results" MODIFIED="1676944520772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo/pinterest_warmup" />
     <SUITE FILE_PATH="coverage/code$script.coverage" NAME="script Coverage Results" MODIFIED="1674055180778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/iterators" />
-    <SUITE FILE_PATH="coverage/code$merge_sort.coverage" NAME="merge_sort Coverage Results" MODIFIED="1662919156031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
-    <SUITE FILE_PATH="coverage/code$insert_sort.coverage" NAME="insert-sort Coverage Results" MODIFIED="1663791139405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
-    <SUITE FILE_PATH="coverage/code$.coverage" NAME=" Coverage Results" MODIFIED="1673896450187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/django/" />
-    <SUITE FILE_PATH="coverage/code$pinteres_test.coverage" NAME="pinteres_test Coverage Results" MODIFIED="1676071818035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
+    <SUITE FILE_PATH="coverage/code$pinterest_warmup.coverage" NAME="pinterest_warmup Coverage Results" MODIFIED="1676930535578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
+    <SUITE FILE_PATH="coverage/code$left_rotation.coverage" NAME="left_rotation Coverage Results" MODIFIED="1676931769340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo/pinterest_warmup" />
+    <SUITE FILE_PATH="coverage/code$insert_sort.coverage" NAME="insert-sort Coverage Results" MODIFIED="1676942906459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
     <SUITE FILE_PATH="coverage/code$ismael.coverage" NAME="ismael Coverage Results" MODIFIED="1673905021005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
     <SUITE FILE_PATH="coverage/code$code_challenge.coverage" NAME="code_challenge Coverage Results" MODIFIED="1670360497047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
+    <SUITE FILE_PATH="coverage/code$insert_node_specific_possition.coverage" NAME="insert_node_specific_possition Coverage Results" MODIFIED="1676932066654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo/pinterest_warmup" />
+    <SUITE FILE_PATH="coverage/code$cycle_detection.coverage" NAME="cycle_detection Coverage Results" MODIFIED="1676932629706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo/pinterest_warmup" />
+    <SUITE FILE_PATH="coverage/code$colorful_numbers.coverage" NAME="colorful_numbers Coverage Results" MODIFIED="1676939580105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
+    <SUITE FILE_PATH="coverage/code$merge_sort.coverage" NAME="merge_sort Coverage Results" MODIFIED="1662919156031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
+    <SUITE FILE_PATH="coverage/code$ice_cream_parlor.coverage" NAME="ice_cream_parlor Coverage Results" MODIFIED="1676937737027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo/pinterest_warmup" />
+    <SUITE FILE_PATH="coverage/code$.coverage" NAME=" Coverage Results" MODIFIED="1673896450187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/django/" />
+    <SUITE FILE_PATH="coverage/code$pinteres_test.coverage" NAME="pinteres_test Coverage Results" MODIFIED="1676071818035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo" />
+    <SUITE FILE_PATH="coverage/code$queue_using_two_stacks.coverage" NAME="queue_using_two_stacks Coverage Results" MODIFIED="1676936201754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo/pinterest_warmup" />
+    <SUITE FILE_PATH="coverage/code$balanced_brackets.coverage" NAME="balanced_brackets Coverage Results" MODIFIED="1676934971338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo/pinterest_warmup" />
   </component>
 </project>
