@@ -31,4 +31,10 @@ def get_celebrity(n: int):
     return -1 if len(celebs) == 0 else list(celebs)[0]
 
 
-print(get_celebrity(4))
+def main():
+    res = get_celebrity(len(k))
+    assert res == 2
+
+
+if __name__ == '__main__':
+    main()
