@@ -38,8 +38,8 @@ def colorful_number(num: int):
     return colorful
 
 
-def is_colorful_number(number):
-    num_str = str(number)  # Convert number to string
+def is_colorful_number(numbers):
+    num_str = str(numbers)
     products = set()  # Create a set to store products
     for i in range(len(num_str)):
         for j in range(i, len(num_str)):
@@ -67,6 +67,13 @@ def main():
     print(is_colorful_number(2232163))
     print(is_colorful_number(1))
     print(is_colorful_number(10))
+    print(is_colorful_number(1123))
+    # False
+    # True
+    # True
+    # False
+    # True
+    # False
 
 
 if __name__ == '__main__':

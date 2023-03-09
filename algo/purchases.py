@@ -8,43 +8,53 @@ def print_matrix(matrix):
 
 
 def best_purchase(items, budget):
-    # list of combinations:
-    # (0, 0), (0, 1), (0,2) # 280
-    # (0, 0), (0, 1), (0,2), (1,0), (1,1), (1,2), (2,0), (2,1), (2,2) #
-    size = len(items)
-    columns = []
-    vertical_list = []
-    horizontal_list = []
-    smaller_lists = []
-    full_list_price = 0
+    aux_max_area = -1
+    temp_t =[]
+    for i in range(len(items)):
+        for j in range(len(items)):
+            temp_line = []
+            for width in range(1, len(items) - i):
+                for height in range(1, len(items) - j):
+                    # items, x, y, width height.
+                    items_cost = 0
+                    for aux_i in range(i, width):
+                        for aux_j in range(j, height):
+                            items_cost += items[aux_i][aux_j]
+                            temp_line.append(items[aux_i][aux_j])
+                    if budget >= items_cost:
+                        aux_max_area = width * height
+            temp_t.append(temp_line)
 
-    for i in range(size):
-        vertical_list = []
-        horizontal_list = []
-        vertical_index = 0
-        horizontal_index = i
-        for j in range(size):
-            full_list_price += items[i][j]
+    print(temp_t)
+    return aux_max_area
 
-            horizontal_list.append(items[i][j])
-            vertical_list.append(items[vertical_index][horizontal_index])
-            vertical_index += 1
 
-        columns.append(vertical_list)
-        columns.append(horizontal_list)
-
-    if budget == full_list_price:
-        return size * size
-
-    print(columns)
-
+def max_rectangular_area(matrix, budget):
+    n = len(matrix)
+    m = len(matrix[0])
+    # Compute the cumulative sum of the matrix
+    cum_sum = [[0] * (m+1) for _ in range(n+1)]
+    for i in range(1, n+1):
+        for j in range(1, m+1):
+            cum_sum[i][j] = cum_sum[i-1][j] + cum_sum[i][j-1] - cum_sum[i-1][j-1] + matrix[i-1][j-1]
+    max_area = 0
+    for i in range(1, n+1):
+        for j in range(1, m+1):
+            for k in range(i, n+1):
+                for l in range(j, m+1):
+                    # Compute the sum of the submatrix using cumulative sum
+                    current_sum = cum_sum[k][l] - cum_sum[k][j-1] - cum_sum[i-1][l] + cum_sum[i-1][j-1]
+                    if current_sum <= budget:
+                        area = (k-i+1) * (l-j+1)
+                        max_area = max(max_area, area)
+    return max_area
 
 def max_items(matrix, budget):
     n = len(matrix)
     max_items = 0
-    cumulative_sums = [[0] * n for _ in range(n)]
+    cumulative_sums = [[0] * n for _ in range(n)]  # this creates a nxn empty matrix
 
-    # Calculate cumulative sums for submatrices
+    # Calculate cumulative sums for sub matrices
     for i in range(n):
         for j in range(n):
             cumulative_sums[i][j] = matrix[i][j]
@@ -54,10 +64,10 @@ def max_items(matrix, budget):
                 cumulative_sums[i][j] += cumulative_sums[i][j - 1]
             if i > 0 and j > 0:
                 cumulative_sums[i][j] -= cumulative_sums[i - 1][j - 1]
-
+    print(cumulative_sums)
     # Iterate over all possible pairs of top and bottom rows
     for i in range(n):
-        for j in range(i, n):
+        for j in range(n):
             left = 0
             right = n - 1
             while left <= right:
@@ -134,24 +144,39 @@ def main():
     ]  # 330 - 6 | 190 - 3
     budget = 400
     print_matrix(list_items)
-    best_purchase(list_items, budget)
+    res = best_purchase(list_items, budget)
+    print('new copy ', res)
 
     res = max_items(list_items, budget)
     print(res)
 
     list_items = [
-        [90, 90, 100],  # -> 280 - 3
-        [90, 120, 42],  # 220 - 3
-        [10, 10, 42],  # 184 - 3
-    ]  # 330 - 6 | 190 - 3
+        [90, 90, 100],
+        [90, 120, 42],
+        [10, 10, 42],
+    ]
+    list_items = [
+        [401, 401, 401],
+        [401, 200, 200],
+        [401, 401, 401],
+    ]
     budget = 400
-    res = max_items_2(list_items, budget)
+    res = max_items_2(list_items, budget)  # <- wrong function
     print(res)
+
+    res = max_rectangular_area(list_items, budget)
+    print('-------', res)
+
     list_items = [
         [90, 90, 100],  # -> 280 - 3
         [90, 120, 42],  # 220 - 3
         [10, 10, 42],  # 184 - 3
     ]  # 330 - 6 | 190 - 3
+    list_items = [
+        [401, 401, 401],
+        [401, 200, 200],
+        [401, 401, 401],
+    ]
     budget = 400
     res = max_items_3(list_items, budget)
     print(res)
