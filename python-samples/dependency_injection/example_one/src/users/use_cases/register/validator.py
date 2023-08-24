@@ -7,7 +7,9 @@ class Validator:
         self._body = body
         self._errors = {}
         self._validated_body = {}
-        self._regex_expressions = {"key": "some rules here, it could also be injected as a dependency"}
+        self._regex_expressions = {
+            "first_name": "^[a-zA-Z]+$"
+        }
 
     @property
     def valid_body(self) -> dict:
@@ -18,14 +20,19 @@ class Validator:
     @property
     def errors(self) -> dict:
         self.validate()
-        return self._errors
+        return self._errors if len(self._errors) else None
 
     def validate(self) -> None:
         for key, value in self._body.items():
-            self.validate_field(key, value, self._regex_expressions[key])
+            self.validate_field(key, value)
 
-    def validate_field(self, key: str, value: str, regex_exp: str) -> None:
+    def validate_field(self, key: str, value: str) -> None:
         try:
-            self._validated_body[key] = re.match(value, regex_exp)
+            # WIP: code
+            if key in self._regex_expressions:
+                regex = self._regex_expressions[key]
+                res = re.match(value, regex)
+                if res is not None:
+                    self._validated_body[key] = res[0]
         except ValueError as e:
             self._errors[key] = e.__traceback__

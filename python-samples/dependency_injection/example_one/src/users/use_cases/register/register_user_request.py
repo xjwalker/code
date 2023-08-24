@@ -16,7 +16,8 @@ class RegisterUserRequest:
 
     @property
     def password(self):
-        return self._body["password"]  # some hashing?
+        password = self._body.get("password")
+        return f"{password}hashed"  # some hashing?
 
     @property
     def email(self):

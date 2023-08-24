@@ -1,6 +1,6 @@
 from .register_user_request import RegisterUserRequest
 from .validator import Validator
-from ....db.repositories.users_repository import UserRepository
+from db.repositories.users_repository import UserRepository
 
 
 class RegisterUser:
@@ -17,7 +17,7 @@ class RegisterUser:
 
     def handle(self) -> dict:
         self._validator.validate()
-        if self._validator.errors:
+        if self._validator.errors is not None:
             return {"error": "raise exception or something"}
 
         first_name = self._register_user_request.first_name
