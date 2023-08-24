@@ -28,5 +28,5 @@ class RegisterUser:
             email=self._register_user_request.email,
             date_of_birth=self._register_user_request.date_of_birth
         )
-
+        # todo; send email
         return user.to_dict()

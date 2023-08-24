@@ -5,7 +5,6 @@ from unittest.mock import Mock
 # Third party
 import pytest
 
-from db.models.user import User
 # Local
 from users.use_cases.register.register_user import RegisterUser
 from users.use_cases.register.validator import Validator
