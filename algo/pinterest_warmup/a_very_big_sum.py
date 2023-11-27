@@ -38,7 +38,25 @@ def a_very_big_sum(ar):
     return sum(ar)
 
 
-def main():
-    res = a_very_big_sum([1000000001, 1000000002, 1000000003, 1000000004, 1000000005])
+def recursive_sum(nums):
+    if len(nums) == 1:
+        return nums[0]
 
-    assert res == 5000000015
+    # current = nums[nums.length()]
+    # int[] nums = Arrays.copyOfRange(nums, 1, nums.length());
+    # return current + recursive_sum(nums)
+    return nums.pop() + recursive_sum(nums)
+
+
+def main():
+    nums = [90, 90, 1]
+    print(a_very_big_sum(nums))
+    print(recursive_sum(nums))
+
+    res = a_very_big_sum([1000000001, 1000000002, 1000000003, 1000000004, 1000000005])
+    print(res)
+    # assert res == 5000000015
+
+
+if __name__ == '__main__':
+    main()

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="dataSourceStorageLocal" created-in="PY-222.3345.131">
+  <component name="dataSourceStorageLocal">
     <data-source name="postgres@localhost" uuid="4137de0f-fff3-4a06-9327-65aa5cd4bcfb">
       <database-info product="PostgreSQL" version="14.1" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.5.0" dbms="POSTGRES" exact-version="14.1" exact-driver-version="42.5">
         <identifier-quote-string>&quot;</identifier-quote-string>
